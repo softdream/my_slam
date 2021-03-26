@@ -1,0 +1,2 @@
+readLidarData
+-DCATKIN_DEVEL_PREFIX=/home/riki/Test/mySlam/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/riki/Test/mySlam/catkin_ws/install -G Unix Makefiles

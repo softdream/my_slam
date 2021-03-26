@@ -1,0 +1,8 @@
+prefix=/home/riki/Test/mySlam/catkin_ws/install
+
+Name: readLidarData
+Description: Description of readLidarData
+Version: 0.0.0
+Cflags: -I/home/riki/Test/mySlam/catkin_ws/install/include
+Libs: -L/home/riki/Test/mySlam/catkin_ws/install/lib -lreadLidarData
+Requires: roscpp sensor_msgs std_msgs

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/riki/Test/mySlam/catkin_ws/devel/setup.sh
