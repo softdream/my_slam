@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++11
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"readLidarData\"
 
-CXX_INCLUDES = -I/opt/ros/kinetic/include 
+CXX_INCLUDES = -I/opt/ros/kinetic/include -I/home/riki/Test/mySlam/catkin_ws/src/readLidarData/include -I/home/riki/Test/mySlam/catkin_ws/src/readLidarData/include/readLidarData 
 

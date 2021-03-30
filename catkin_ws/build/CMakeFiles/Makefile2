@@ -701,9 +701,6 @@ clean: readLidarData/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 # Target rules for target readLidarData/CMakeFiles/readLidarData_node.dir
 
 # All Build rule for target.
-readLidarData/CMakeFiles/readLidarData_node.dir/all: readLidarData/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-readLidarData/CMakeFiles/readLidarData_node.dir/all: readLidarData/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-readLidarData/CMakeFiles/readLidarData_node.dir/all: readLidarData/CMakeFiles/std_msgs_generate_messages_py.dir/all
 readLidarData/CMakeFiles/readLidarData_node.dir/all: readLidarData/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 readLidarData/CMakeFiles/readLidarData_node.dir/all: readLidarData/CMakeFiles/roscpp_generate_messages_py.dir/all
 readLidarData/CMakeFiles/readLidarData_node.dir/all: readLidarData/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
@@ -719,6 +716,9 @@ readLidarData/CMakeFiles/readLidarData_node.dir/all: readLidarData/CMakeFiles/ro
 readLidarData/CMakeFiles/readLidarData_node.dir/all: readLidarData/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 readLidarData/CMakeFiles/readLidarData_node.dir/all: readLidarData/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
 readLidarData/CMakeFiles/readLidarData_node.dir/all: readLidarData/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+readLidarData/CMakeFiles/readLidarData_node.dir/all: readLidarData/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+readLidarData/CMakeFiles/readLidarData_node.dir/all: readLidarData/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+readLidarData/CMakeFiles/readLidarData_node.dir/all: readLidarData/CMakeFiles/std_msgs_generate_messages_py.dir/all
 readLidarData/CMakeFiles/readLidarData_node.dir/all: readLidarData/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 readLidarData/CMakeFiles/readLidarData_node.dir/all: readLidarData/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 readLidarData/CMakeFiles/readLidarData_node.dir/all: readLidarData/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
@@ -728,7 +728,7 @@ readLidarData/CMakeFiles/readLidarData_node.dir/all: readLidarData/CMakeFiles/se
 readLidarData/CMakeFiles/readLidarData_node.dir/all: readLidarData/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 	$(MAKE) -f readLidarData/CMakeFiles/readLidarData_node.dir/build.make readLidarData/CMakeFiles/readLidarData_node.dir/depend
 	$(MAKE) -f readLidarData/CMakeFiles/readLidarData_node.dir/build.make readLidarData/CMakeFiles/readLidarData_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/riki/Test/mySlam/catkin_ws/build/CMakeFiles --progress-num=5,6 "Built target readLidarData_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/riki/Test/mySlam/catkin_ws/build/CMakeFiles --progress-num=5,6,7,8,9,10,11 "Built target readLidarData_node"
 .PHONY : readLidarData/CMakeFiles/readLidarData_node.dir/all
 
 # Include target in all.
@@ -738,7 +738,7 @@ all: readLidarData/CMakeFiles/readLidarData_node.dir/all
 
 # Build rule for subdir invocation for target.
 readLidarData/CMakeFiles/readLidarData_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/riki/Test/mySlam/catkin_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/riki/Test/mySlam/catkin_ws/build/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 readLidarData/CMakeFiles/readLidarData_node.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/riki/Test/mySlam/catkin_ws/build/CMakeFiles 0
 .PHONY : readLidarData/CMakeFiles/readLidarData_node.dir/rule

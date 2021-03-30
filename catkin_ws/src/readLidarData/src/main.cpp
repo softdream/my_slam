@@ -3,7 +3,11 @@
 #include <iostream>
 #include "dataType.h"
 
+#include "pcs.h"
+
 sensors::LidarScan lidarScan;
+
+pcs::Publisher<sensors::LidarScan> pub;
 
 void laserCallback( const sensor_msgs::LaserScan::ConstPtr &scan )
 {
@@ -23,7 +27,7 @@ void laserCallback( const sensor_msgs::LaserScan::ConstPtr &scan )
 		lidarScan.intensities[i] = scan->intensities[i];
 	}
 
-
+	pub.publish( lidarScan );
 }
 
 int main( int argc, char **argv )
@@ -33,6 +37,9 @@ int main( int argc, char **argv )
 	ros::NodeHandle n;
 	
 	ros::Subscriber lidar_sub = n.subscribe<sensor_msgs::LaserScan>("/laser_scan", 1, laserCallback);
+
+	pcs::PCS pcs;
+	pub = pcs.advertise<sensors::LidarScan>( "192.168.72.129", 5555 );
 
 	ros::spin();
 

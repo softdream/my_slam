@@ -57,9 +57,129 @@ include readLidarData/CMakeFiles/readLidarData_node.dir/progress.make
 # Include the compile flags for this target's objects.
 include readLidarData/CMakeFiles/readLidarData_node.dir/flags.make
 
+readLidarData/CMakeFiles/readLidarData_node.dir/src/EpollEvent.cpp.o: readLidarData/CMakeFiles/readLidarData_node.dir/flags.make
+readLidarData/CMakeFiles/readLidarData_node.dir/src/EpollEvent.cpp.o: /home/riki/Test/mySlam/catkin_ws/src/readLidarData/src/EpollEvent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/riki/Test/mySlam/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object readLidarData/CMakeFiles/readLidarData_node.dir/src/EpollEvent.cpp.o"
+	cd /home/riki/Test/mySlam/catkin_ws/build/readLidarData && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/readLidarData_node.dir/src/EpollEvent.cpp.o -c /home/riki/Test/mySlam/catkin_ws/src/readLidarData/src/EpollEvent.cpp
+
+readLidarData/CMakeFiles/readLidarData_node.dir/src/EpollEvent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/readLidarData_node.dir/src/EpollEvent.cpp.i"
+	cd /home/riki/Test/mySlam/catkin_ws/build/readLidarData && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/riki/Test/mySlam/catkin_ws/src/readLidarData/src/EpollEvent.cpp > CMakeFiles/readLidarData_node.dir/src/EpollEvent.cpp.i
+
+readLidarData/CMakeFiles/readLidarData_node.dir/src/EpollEvent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/readLidarData_node.dir/src/EpollEvent.cpp.s"
+	cd /home/riki/Test/mySlam/catkin_ws/build/readLidarData && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/riki/Test/mySlam/catkin_ws/src/readLidarData/src/EpollEvent.cpp -o CMakeFiles/readLidarData_node.dir/src/EpollEvent.cpp.s
+
+readLidarData/CMakeFiles/readLidarData_node.dir/src/EpollEvent.cpp.o.requires:
+
+.PHONY : readLidarData/CMakeFiles/readLidarData_node.dir/src/EpollEvent.cpp.o.requires
+
+readLidarData/CMakeFiles/readLidarData_node.dir/src/EpollEvent.cpp.o.provides: readLidarData/CMakeFiles/readLidarData_node.dir/src/EpollEvent.cpp.o.requires
+	$(MAKE) -f readLidarData/CMakeFiles/readLidarData_node.dir/build.make readLidarData/CMakeFiles/readLidarData_node.dir/src/EpollEvent.cpp.o.provides.build
+.PHONY : readLidarData/CMakeFiles/readLidarData_node.dir/src/EpollEvent.cpp.o.provides
+
+readLidarData/CMakeFiles/readLidarData_node.dir/src/EpollEvent.cpp.o.provides.build: readLidarData/CMakeFiles/readLidarData_node.dir/src/EpollEvent.cpp.o
+
+
+readLidarData/CMakeFiles/readLidarData_node.dir/src/transport_udp.cpp.o: readLidarData/CMakeFiles/readLidarData_node.dir/flags.make
+readLidarData/CMakeFiles/readLidarData_node.dir/src/transport_udp.cpp.o: /home/riki/Test/mySlam/catkin_ws/src/readLidarData/src/transport_udp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/riki/Test/mySlam/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object readLidarData/CMakeFiles/readLidarData_node.dir/src/transport_udp.cpp.o"
+	cd /home/riki/Test/mySlam/catkin_ws/build/readLidarData && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/readLidarData_node.dir/src/transport_udp.cpp.o -c /home/riki/Test/mySlam/catkin_ws/src/readLidarData/src/transport_udp.cpp
+
+readLidarData/CMakeFiles/readLidarData_node.dir/src/transport_udp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/readLidarData_node.dir/src/transport_udp.cpp.i"
+	cd /home/riki/Test/mySlam/catkin_ws/build/readLidarData && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/riki/Test/mySlam/catkin_ws/src/readLidarData/src/transport_udp.cpp > CMakeFiles/readLidarData_node.dir/src/transport_udp.cpp.i
+
+readLidarData/CMakeFiles/readLidarData_node.dir/src/transport_udp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/readLidarData_node.dir/src/transport_udp.cpp.s"
+	cd /home/riki/Test/mySlam/catkin_ws/build/readLidarData && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/riki/Test/mySlam/catkin_ws/src/readLidarData/src/transport_udp.cpp -o CMakeFiles/readLidarData_node.dir/src/transport_udp.cpp.s
+
+readLidarData/CMakeFiles/readLidarData_node.dir/src/transport_udp.cpp.o.requires:
+
+.PHONY : readLidarData/CMakeFiles/readLidarData_node.dir/src/transport_udp.cpp.o.requires
+
+readLidarData/CMakeFiles/readLidarData_node.dir/src/transport_udp.cpp.o.provides: readLidarData/CMakeFiles/readLidarData_node.dir/src/transport_udp.cpp.o.requires
+	$(MAKE) -f readLidarData/CMakeFiles/readLidarData_node.dir/build.make readLidarData/CMakeFiles/readLidarData_node.dir/src/transport_udp.cpp.o.provides.build
+.PHONY : readLidarData/CMakeFiles/readLidarData_node.dir/src/transport_udp.cpp.o.provides
+
+readLidarData/CMakeFiles/readLidarData_node.dir/src/transport_udp.cpp.o.provides.build: readLidarData/CMakeFiles/readLidarData_node.dir/src/transport_udp.cpp.o
+
+
+readLidarData/CMakeFiles/readLidarData_node.dir/src/publisher.cpp.o: readLidarData/CMakeFiles/readLidarData_node.dir/flags.make
+readLidarData/CMakeFiles/readLidarData_node.dir/src/publisher.cpp.o: /home/riki/Test/mySlam/catkin_ws/src/readLidarData/src/publisher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/riki/Test/mySlam/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object readLidarData/CMakeFiles/readLidarData_node.dir/src/publisher.cpp.o"
+	cd /home/riki/Test/mySlam/catkin_ws/build/readLidarData && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/readLidarData_node.dir/src/publisher.cpp.o -c /home/riki/Test/mySlam/catkin_ws/src/readLidarData/src/publisher.cpp
+
+readLidarData/CMakeFiles/readLidarData_node.dir/src/publisher.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/readLidarData_node.dir/src/publisher.cpp.i"
+	cd /home/riki/Test/mySlam/catkin_ws/build/readLidarData && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/riki/Test/mySlam/catkin_ws/src/readLidarData/src/publisher.cpp > CMakeFiles/readLidarData_node.dir/src/publisher.cpp.i
+
+readLidarData/CMakeFiles/readLidarData_node.dir/src/publisher.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/readLidarData_node.dir/src/publisher.cpp.s"
+	cd /home/riki/Test/mySlam/catkin_ws/build/readLidarData && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/riki/Test/mySlam/catkin_ws/src/readLidarData/src/publisher.cpp -o CMakeFiles/readLidarData_node.dir/src/publisher.cpp.s
+
+readLidarData/CMakeFiles/readLidarData_node.dir/src/publisher.cpp.o.requires:
+
+.PHONY : readLidarData/CMakeFiles/readLidarData_node.dir/src/publisher.cpp.o.requires
+
+readLidarData/CMakeFiles/readLidarData_node.dir/src/publisher.cpp.o.provides: readLidarData/CMakeFiles/readLidarData_node.dir/src/publisher.cpp.o.requires
+	$(MAKE) -f readLidarData/CMakeFiles/readLidarData_node.dir/build.make readLidarData/CMakeFiles/readLidarData_node.dir/src/publisher.cpp.o.provides.build
+.PHONY : readLidarData/CMakeFiles/readLidarData_node.dir/src/publisher.cpp.o.provides
+
+readLidarData/CMakeFiles/readLidarData_node.dir/src/publisher.cpp.o.provides.build: readLidarData/CMakeFiles/readLidarData_node.dir/src/publisher.cpp.o
+
+
+readLidarData/CMakeFiles/readLidarData_node.dir/src/subscriber.cpp.o: readLidarData/CMakeFiles/readLidarData_node.dir/flags.make
+readLidarData/CMakeFiles/readLidarData_node.dir/src/subscriber.cpp.o: /home/riki/Test/mySlam/catkin_ws/src/readLidarData/src/subscriber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/riki/Test/mySlam/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object readLidarData/CMakeFiles/readLidarData_node.dir/src/subscriber.cpp.o"
+	cd /home/riki/Test/mySlam/catkin_ws/build/readLidarData && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/readLidarData_node.dir/src/subscriber.cpp.o -c /home/riki/Test/mySlam/catkin_ws/src/readLidarData/src/subscriber.cpp
+
+readLidarData/CMakeFiles/readLidarData_node.dir/src/subscriber.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/readLidarData_node.dir/src/subscriber.cpp.i"
+	cd /home/riki/Test/mySlam/catkin_ws/build/readLidarData && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/riki/Test/mySlam/catkin_ws/src/readLidarData/src/subscriber.cpp > CMakeFiles/readLidarData_node.dir/src/subscriber.cpp.i
+
+readLidarData/CMakeFiles/readLidarData_node.dir/src/subscriber.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/readLidarData_node.dir/src/subscriber.cpp.s"
+	cd /home/riki/Test/mySlam/catkin_ws/build/readLidarData && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/riki/Test/mySlam/catkin_ws/src/readLidarData/src/subscriber.cpp -o CMakeFiles/readLidarData_node.dir/src/subscriber.cpp.s
+
+readLidarData/CMakeFiles/readLidarData_node.dir/src/subscriber.cpp.o.requires:
+
+.PHONY : readLidarData/CMakeFiles/readLidarData_node.dir/src/subscriber.cpp.o.requires
+
+readLidarData/CMakeFiles/readLidarData_node.dir/src/subscriber.cpp.o.provides: readLidarData/CMakeFiles/readLidarData_node.dir/src/subscriber.cpp.o.requires
+	$(MAKE) -f readLidarData/CMakeFiles/readLidarData_node.dir/build.make readLidarData/CMakeFiles/readLidarData_node.dir/src/subscriber.cpp.o.provides.build
+.PHONY : readLidarData/CMakeFiles/readLidarData_node.dir/src/subscriber.cpp.o.provides
+
+readLidarData/CMakeFiles/readLidarData_node.dir/src/subscriber.cpp.o.provides.build: readLidarData/CMakeFiles/readLidarData_node.dir/src/subscriber.cpp.o
+
+
+readLidarData/CMakeFiles/readLidarData_node.dir/src/pcs.cpp.o: readLidarData/CMakeFiles/readLidarData_node.dir/flags.make
+readLidarData/CMakeFiles/readLidarData_node.dir/src/pcs.cpp.o: /home/riki/Test/mySlam/catkin_ws/src/readLidarData/src/pcs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/riki/Test/mySlam/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object readLidarData/CMakeFiles/readLidarData_node.dir/src/pcs.cpp.o"
+	cd /home/riki/Test/mySlam/catkin_ws/build/readLidarData && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/readLidarData_node.dir/src/pcs.cpp.o -c /home/riki/Test/mySlam/catkin_ws/src/readLidarData/src/pcs.cpp
+
+readLidarData/CMakeFiles/readLidarData_node.dir/src/pcs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/readLidarData_node.dir/src/pcs.cpp.i"
+	cd /home/riki/Test/mySlam/catkin_ws/build/readLidarData && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/riki/Test/mySlam/catkin_ws/src/readLidarData/src/pcs.cpp > CMakeFiles/readLidarData_node.dir/src/pcs.cpp.i
+
+readLidarData/CMakeFiles/readLidarData_node.dir/src/pcs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/readLidarData_node.dir/src/pcs.cpp.s"
+	cd /home/riki/Test/mySlam/catkin_ws/build/readLidarData && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/riki/Test/mySlam/catkin_ws/src/readLidarData/src/pcs.cpp -o CMakeFiles/readLidarData_node.dir/src/pcs.cpp.s
+
+readLidarData/CMakeFiles/readLidarData_node.dir/src/pcs.cpp.o.requires:
+
+.PHONY : readLidarData/CMakeFiles/readLidarData_node.dir/src/pcs.cpp.o.requires
+
+readLidarData/CMakeFiles/readLidarData_node.dir/src/pcs.cpp.o.provides: readLidarData/CMakeFiles/readLidarData_node.dir/src/pcs.cpp.o.requires
+	$(MAKE) -f readLidarData/CMakeFiles/readLidarData_node.dir/build.make readLidarData/CMakeFiles/readLidarData_node.dir/src/pcs.cpp.o.provides.build
+.PHONY : readLidarData/CMakeFiles/readLidarData_node.dir/src/pcs.cpp.o.provides
+
+readLidarData/CMakeFiles/readLidarData_node.dir/src/pcs.cpp.o.provides.build: readLidarData/CMakeFiles/readLidarData_node.dir/src/pcs.cpp.o
+
+
 readLidarData/CMakeFiles/readLidarData_node.dir/src/main.cpp.o: readLidarData/CMakeFiles/readLidarData_node.dir/flags.make
 readLidarData/CMakeFiles/readLidarData_node.dir/src/main.cpp.o: /home/riki/Test/mySlam/catkin_ws/src/readLidarData/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/riki/Test/mySlam/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object readLidarData/CMakeFiles/readLidarData_node.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/riki/Test/mySlam/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object readLidarData/CMakeFiles/readLidarData_node.dir/src/main.cpp.o"
 	cd /home/riki/Test/mySlam/catkin_ws/build/readLidarData && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/readLidarData_node.dir/src/main.cpp.o -c /home/riki/Test/mySlam/catkin_ws/src/readLidarData/src/main.cpp
 
 readLidarData/CMakeFiles/readLidarData_node.dir/src/main.cpp.i: cmake_force
@@ -83,11 +203,21 @@ readLidarData/CMakeFiles/readLidarData_node.dir/src/main.cpp.o.provides.build: r
 
 # Object files for target readLidarData_node
 readLidarData_node_OBJECTS = \
+"CMakeFiles/readLidarData_node.dir/src/EpollEvent.cpp.o" \
+"CMakeFiles/readLidarData_node.dir/src/transport_udp.cpp.o" \
+"CMakeFiles/readLidarData_node.dir/src/publisher.cpp.o" \
+"CMakeFiles/readLidarData_node.dir/src/subscriber.cpp.o" \
+"CMakeFiles/readLidarData_node.dir/src/pcs.cpp.o" \
 "CMakeFiles/readLidarData_node.dir/src/main.cpp.o"
 
 # External object files for target readLidarData_node
 readLidarData_node_EXTERNAL_OBJECTS =
 
+/home/riki/Test/mySlam/catkin_ws/devel/lib/readLidarData/readLidarData_node: readLidarData/CMakeFiles/readLidarData_node.dir/src/EpollEvent.cpp.o
+/home/riki/Test/mySlam/catkin_ws/devel/lib/readLidarData/readLidarData_node: readLidarData/CMakeFiles/readLidarData_node.dir/src/transport_udp.cpp.o
+/home/riki/Test/mySlam/catkin_ws/devel/lib/readLidarData/readLidarData_node: readLidarData/CMakeFiles/readLidarData_node.dir/src/publisher.cpp.o
+/home/riki/Test/mySlam/catkin_ws/devel/lib/readLidarData/readLidarData_node: readLidarData/CMakeFiles/readLidarData_node.dir/src/subscriber.cpp.o
+/home/riki/Test/mySlam/catkin_ws/devel/lib/readLidarData/readLidarData_node: readLidarData/CMakeFiles/readLidarData_node.dir/src/pcs.cpp.o
 /home/riki/Test/mySlam/catkin_ws/devel/lib/readLidarData/readLidarData_node: readLidarData/CMakeFiles/readLidarData_node.dir/src/main.cpp.o
 /home/riki/Test/mySlam/catkin_ws/devel/lib/readLidarData/readLidarData_node: readLidarData/CMakeFiles/readLidarData_node.dir/build.make
 /home/riki/Test/mySlam/catkin_ws/devel/lib/readLidarData/readLidarData_node: /opt/ros/kinetic/lib/libroscpp.so
@@ -110,7 +240,7 @@ readLidarData_node_EXTERNAL_OBJECTS =
 /home/riki/Test/mySlam/catkin_ws/devel/lib/readLidarData/readLidarData_node: /usr/lib/x86_64-linux-gnu/libpthread.so
 /home/riki/Test/mySlam/catkin_ws/devel/lib/readLidarData/readLidarData_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
 /home/riki/Test/mySlam/catkin_ws/devel/lib/readLidarData/readLidarData_node: readLidarData/CMakeFiles/readLidarData_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/riki/Test/mySlam/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/riki/Test/mySlam/catkin_ws/devel/lib/readLidarData/readLidarData_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/riki/Test/mySlam/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable /home/riki/Test/mySlam/catkin_ws/devel/lib/readLidarData/readLidarData_node"
 	cd /home/riki/Test/mySlam/catkin_ws/build/readLidarData && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/readLidarData_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -118,6 +248,11 @@ readLidarData/CMakeFiles/readLidarData_node.dir/build: /home/riki/Test/mySlam/ca
 
 .PHONY : readLidarData/CMakeFiles/readLidarData_node.dir/build
 
+readLidarData/CMakeFiles/readLidarData_node.dir/requires: readLidarData/CMakeFiles/readLidarData_node.dir/src/EpollEvent.cpp.o.requires
+readLidarData/CMakeFiles/readLidarData_node.dir/requires: readLidarData/CMakeFiles/readLidarData_node.dir/src/transport_udp.cpp.o.requires
+readLidarData/CMakeFiles/readLidarData_node.dir/requires: readLidarData/CMakeFiles/readLidarData_node.dir/src/publisher.cpp.o.requires
+readLidarData/CMakeFiles/readLidarData_node.dir/requires: readLidarData/CMakeFiles/readLidarData_node.dir/src/subscriber.cpp.o.requires
+readLidarData/CMakeFiles/readLidarData_node.dir/requires: readLidarData/CMakeFiles/readLidarData_node.dir/src/pcs.cpp.o.requires
 readLidarData/CMakeFiles/readLidarData_node.dir/requires: readLidarData/CMakeFiles/readLidarData_node.dir/src/main.cpp.o.requires
 
 .PHONY : readLidarData/CMakeFiles/readLidarData_node.dir/requires
